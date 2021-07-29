@@ -3,12 +3,9 @@
 class Sandbox : public Palm::Application {
 public:
 	Sandbox() {
-
 	}
 
 	~Sandbox() {
-
-
 	}
 };
 

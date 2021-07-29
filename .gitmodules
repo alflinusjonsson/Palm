@@ -1,0 +1,3 @@
+[submodule "Palm/vendor/spdlog"]
+	path = Palm/vendor/spdlog
+	url = https://github.com/gabime/spdlog

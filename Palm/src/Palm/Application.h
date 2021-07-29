@@ -3,7 +3,6 @@
 #include "Core.h"
 
 namespace Palm {
-
 	class PALM_API Application
 	{
 	public:
@@ -15,6 +14,4 @@ namespace Palm {
 
 	// To be defined in CLIENT
 	Application* CreateApplication();
-
 }
-
