@@ -19,6 +19,9 @@ project "Palm"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "pmpch.h"
+	pchsource "Palm/src/pmpch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",
@@ -27,6 +30,7 @@ project "Palm"
 
 	includedirs
 	{
+		"%{prj.name}/src",
 		"%{prj.name}/vendor/spdlog/include"
 	}
 

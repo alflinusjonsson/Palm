@@ -4,6 +4,9 @@
     <Filter Include="Palm">
       <UniqueIdentifier>{CF988A7C-BBCF-8B0D-64BC-711050D2070F}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Palm\Events">
+      <UniqueIdentifier>{D36560A8-3F1B-D99D-C80F-D37434C4CFA1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Palm.h" />
@@ -16,9 +19,22 @@
     <ClInclude Include="src\Palm\EntryPoint.h">
       <Filter>Palm</Filter>
     </ClInclude>
+    <ClInclude Include="src\Palm\Events\ApplicationEvent.h">
+      <Filter>Palm\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Palm\Events\Event.h">
+      <Filter>Palm\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Palm\Events\KeyEvent.h">
+      <Filter>Palm\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Palm\Events\MouseEvent.h">
+      <Filter>Palm\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\Palm\Log.h">
       <Filter>Palm</Filter>
     </ClInclude>
+    <ClInclude Include="src\pmcph.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Palm\Application.cpp">
@@ -27,5 +43,6 @@
     <ClCompile Include="src\Palm\Log.cpp">
       <Filter>Palm</Filter>
     </ClCompile>
+    <ClCompile Include="src\pmcph.cpp" />
   </ItemGroup>
 </Project>
